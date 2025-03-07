@@ -22,6 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  transform: scale(1.2);
   background: url("/assets/image/bg-1.jpg") no-repeat center center;
   background-size: cover;
   filter: blur(20px); /* Apply Blur Effect */

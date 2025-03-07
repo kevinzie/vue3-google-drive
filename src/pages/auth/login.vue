@@ -1,5 +1,5 @@
 <template>
-  <v-card-item>
+  <v-card-item class="text-white">
     <div class="text-center">
       <div
         class="text-overline mb-1"
@@ -18,10 +18,12 @@
   <v-card-text>
     <v-form @submit.prevent="handleLogin">
       <v-text-field
+        class="text-white"
         v-model="username"
         label="Username"
       />
       <v-text-field
+        class="text-white"
         v-model="password"
         label="Password"
         type="password"
